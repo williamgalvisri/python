@@ -45,7 +45,7 @@ def saveInfoStore(storeName, row):
     table.update(row['id'], {"description": description})
 
 def getTableReference(baseId = 'appRRypaOL2sWGWy0', tableName = ''):
-    return Table('key5RmxjCDpFu5xUy', baseId, tableName)
+    return Table('<api-key>', baseId, tableName)
 # Punto de entrada de cualquien aplicación de python
 if __name__ == "__main__":
     run()
